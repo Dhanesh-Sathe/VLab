@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 800px;
+    width: 90%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.equation {
+    margin-bottom: 20px;
+}
+
+.equation h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.equation p {
+    font-size: 1.5em;
+    color: #000;
+    background: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+}

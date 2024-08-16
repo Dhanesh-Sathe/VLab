@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>String Calculator</h1>
+        <div class="input-section">
+            <textarea id="inputString" placeholder="Enter a string"></textarea>
+        </div>
+        <div class="function-section">
+            <h2>Functions</h2>
+            <div class="function-list">
+                <button onclick="calculateLength()">Length</button>
+                <button onclick="concatenateStrings()">Concatenate</button>
+                <button onclick="getCharAt()">charAt</button>
+                <button onclick="getCharCodeAt()">charCodeAt</button>
+                <button onclick="getSubstring()">substr</button>
+                <button onclick="getSlice()">slice</button>
+                <button onclick="getIndexOf()">indexOf</button>
+                <button onclick="replaceString()">replace</button>
+            </div>
+        </div>
+        <div class="output-section">
+            <h2>Output</h2>
+            <p id="output"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

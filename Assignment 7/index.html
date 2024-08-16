@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignments</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Assignments</h1>
+  <div class="container">
+    <div class="assignment">
+      <h2>1. Sum of AP/GP Series</h2>
+      <label for="series-type">Series Type:</label>
+      <select id="series-type">
+        <option value="ap">Arithmetic Progression (AP)</option>
+        <option value="gp">Geometric Progression (GP)</option>
+      </select>
+      <label for="first-term">First Term:</label>
+      <input type="number" id="first-term" placeholder="Enter the first term">
+      <label for="common-diff">Common Difference:</label>
+      <input type="number" id="common-diff" placeholder="Enter the common difference (for AP)">
+      <label for="common-ratio">Common Ratio:</label>
+      <input type="number" id="common-ratio" placeholder="Enter the common ratio (for GP)">
+      <label for="num-terms">Number of Terms:</label>
+      <input type="number" id="num-terms" placeholder="Enter the number of terms">
+      <button onclick="calculateSeriesSum()">Calculate</button>
+      <p id="series-sum"></p>
+    </div>
+
+    <div class="assignment">
+      <h2>2. Binary Search Implementation</h2>
+      <label for="target">Target Element:</label>
+      <input type="number" id="target" placeholder="Enter the target element">
+      <button onclick="binarySearch()">Search</button>
+      <p id="binary-search-result"></p>
+    </div>
+
+    <!-- <div class="assignment">
+      <h2>3. Matrix Multiplication</h2>
+      <button onclick="multiplyMatrices()">Multiply Matrices</button>
+      <pre id="matrix-multiplication-result"></pre>
+    </div>
+
+    <div class="assignment">
+      <h2>4. Maximum Subarray Sum</h2>
+      <button onclick="findMaxSubarraySum()">Find Max Subarray Sum</button>
+      <p id="max-subarray-sum"></p>
+    </div> -->
+
+    <div class="assignment">
+        <h2>3. Matrix Multiplication</h2>
+        <label for="matrix1-rows">Number of Rows (Matrix 1):</label>
+        <input type="number" id="matrix1-rows" placeholder="Enter number of rows">
+        <label for="matrix1-cols">Number of Columns (Matrix 1):</label>
+        <input type="number" id="matrix1-cols" placeholder="Enter number of columns">
+        <label for="matrix1-input">Matrix 1:</label>
+        <textarea id="matrix1-input" rows="5" placeholder="Enter matrix elements separated by space"></textarea>
+        <label for="matrix2-rows">Number of Rows (Matrix 2):</label>
+        <input type="number" id="matrix2-rows" placeholder="Enter number of rows">
+        <label for="matrix2-cols">Number of Columns (Matrix 2):</label>
+        <input type="number" id="matrix2-cols" placeholder="Enter number of columns">
+        <label for="matrix2-input">Matrix 2:</label>
+        <textarea id="matrix2-input" rows="5" placeholder="Enter matrix elements separated by space"></textarea>
+        <button onclick="multiplyMatrices()">Multiply Matrices</button>
+        <pre id="matrix-multiplication-result"></pre>
+      </div>
+  
+      <div class="assignment">
+        <h2>4. Maximum Subarray Sum</h2>
+        <label for="array-input">Array:</label>
+        <input type="text" id="array-input" placeholder="Enter array elements separated by space">
+        <button onclick="findMaxSubarraySum()">Find Max Subarray Sum</button>
+        <p id="max-subarray-sum"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

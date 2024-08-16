@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Assignments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Function Assignments</h1>
+    <div class="container">
+        <div class="assignment">
+            <h2>1. Calculate the Area of a Triangle</h2>
+            <label for="base">Base:</label>
+            <input type="number" id="base" placeholder="Enter the base length">
+            <label for="height">Height:</label>
+            <input type="number" id="height" placeholder="Enter the height">
+            <button onclick="calculateTriangleArea()">Calculate</button>
+            <p id="triangle-area"></p>
+        </div>
+
+        <div class="assignment">
+            <h2>2. Calculate the Area of a Circle</h2>
+            <label for="radius">Radius:</label>
+            <input type="number" id="radius" placeholder="Enter the radius">
+            <button onclick="calculateCircleArea()">Calculate</button>
+            <p id="circle-area"></p>
+        </div>
+
+        <div class="assignment">
+            <h2>3. Find Vowels in a String</h2>
+            <label for="input-string">String:</label>
+            <input type="text" id="input-string" placeholder="Enter a string">
+            <button onclick="findVowels()">Find Vowels</button>
+            <p id="vowels"></p>
+        </div>
+
+        <div class="assignment">
+            <h2>4. Simple Interest Calculator</h2>
+            <label for="principal">Principal:</label>
+            <input type="number" id="principal" placeholder="Enter the principal amount">
+            <label for="rate">Rate:</label>
+            <input type="number" id="rate" placeholder="Enter the annual interest rate">
+            <label for="time">Time:</label>
+            <input type="number" id="time" placeholder="Enter the time period (in years)">
+            <button onclick="calculateSimpleInterest()">Calculate</button>
+            <p id="simple-interest"></p>
+        </div>
+
+        <div class="assignment">
+            <h2>5. Prime Number Checker</h2>
+            <label for="prime-number">Number:</label>
+            <input type="number" id="prime-number" placeholder="Enter a number">
+            <button onclick="checkPrime()">Check</button>
+            <p id="prime-result"></p>
+        </div>
+
+        <div class="assignment">
+            <h2>6. Factorial Calculator</h2>
+            <label for="factorial-number">Number:</label>
+            <input type="number" id="factorial-number" placeholder="Enter a number">
+            <button onclick="calculateFactorial()">Calculate</button>
+            <p id="factorial-result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
